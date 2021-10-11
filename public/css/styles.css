@@ -1,0 +1,381 @@
+
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+    
+    
+}
+main.registro h4{
+    text-align:left
+
+}
+main.ingresa{
+    text-align: center;
+}
+div.compra-venta{
+    display: flex;
+    flex-direction: row;
+    
+}
+div.barra-busca{
+    margin-top: 17px ;
+    width: 50%;
+    align-items: center;
+    position: relative;
+}
+input.busqueda{
+    position: relative;
+    border: 3px solid white;
+    border-radius: 6px;
+    height: 27px;
+}
+#lupa{
+    position: absolute;
+    right: -5px;
+    width: 10%;
+    background-color: white;
+    border-left-color: grey;
+}
+input.dot{
+    margin-left: 24px;
+    margin-right: 18px;
+}
+
+input.text-ingresa{
+    width: 250px;
+    height: 35px;
+    border: none ;
+    border-radius: 3%;
+    padding-left: 10px;
+    width: 80%;
+
+}
+div.categoria-interes{
+    display: flex;
+    flex-direction: column;
+}
+div.cube{
+    margin-bottom: 20px;
+    margin-left: 24px;
+}
+button.enviar-ingresa{
+    width: 80%;
+    height: 40px;
+    background-color: rgb(37, 37, 255);
+    color: white;
+}
+
+header{
+    background-color: #EAC926;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+footer{
+    background-color: white;
+    padding: 12px;
+    text-align: center;
+    
+}
+p{
+    
+    font-size: 12px;
+}
+i.busqueda{
+    text-align: center;
+    background-color: white; 
+    border-color: black;
+    width: 15px;
+    padding-top: 2px;
+    margin-top: 0px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    
+}
+img.imgaen-logo{
+    padding: 15px;
+    width: 100%;
+}
+
+
+
+.titulares{
+    font-size: 24px;
+    text-align: center;
+}
+.precios{
+    margin-right:10px ;
+    font-size: 18px;
+    flex-grow: 30%;
+    
+}
+.descuentos{
+    
+    font-size: 16px;
+    flex-grow: 70%;
+    color: rgb(95, 255, 108);
+    
+    
+}
+.descripciones{
+    margin-top: 15px;
+    font-size: 16px;
+    display: none;
+    position: relative;
+}
+
+ul li a{
+    text-align: left;
+}
+ul {
+    list-style:none ;
+    padding-left: 15px;
+}
+a {
+    text-decoration:none;
+    color: black;
+    
+}
+.burger-menu{
+    background-color: rgb(37, 37, 255);
+    color: white;
+    text-align: center;
+    width: 25px;
+    margin: auto;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    border-radius: 10%;
+    
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+article{
+    
+    max-width: 93%;
+    display: inline-block;
+    margin: 10px;
+    background-color: white;
+}
+
+.icons {
+    width: 2em;
+}
+p.iconosfooter{
+    font-size: 2em;
+    margin-bottom: 12px;
+    
+
+}
+#icono-footer{
+    color: blue;
+}
+div.logo-busqueda{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+div.imagen-logoo{
+    width: 50%;
+}
+ h4.descripciones{
+    display: none;
+    transition: 0.5s;
+ }
+h4{
+    text-align: center;
+    
+}
+main{
+    width: 100%;
+    padding:10px;
+    background-color: #ebebeb;
+     display: flex;
+     flex-direction: column;
+    
+}
+
+
+.icono{
+    color: rgb(60, 185, 60);
+    border: 1px solid rgb(60, 185, 60) ;
+    border-radius: 50%;
+    padding: 7px 5px 7px 7px;
+    position: absolute;
+    top:-20px;
+    right: 20px;
+    transform: rotate(0deg);
+    transition: 0.5s;
+}
+.icono:hover{
+    transform: rotate(-90deg);
+}
+.cajapdd{
+    border-top: solid 1px #ebebeb;
+    background-color: white;
+    padding: 25px;
+    position: relative;
+
+}
+.unionpreciodescuento{
+    display: flex;
+    justify-content: flex-start;
+    
+     
+}
+
+
+.Compra{
+    text-align: center;
+}
+nav.naveg{
+    display: none;
+}
+input.text{
+    width: 250px;
+    height: 35px;
+    border: none ;
+    border-radius: 3%;
+    padding-left: 10px;
+}
+#icono-header{
+    margin-left: 5px;
+}
+@media  (min-width: 361px){
+    .descripciones{
+        
+        display: initial;
+    }
+    nav.naveg{
+        display: initial;
+    }
+    
+        .burger-menu{
+            display: none;
+            
+        }
+        .imgaen-logo{
+            width: 35%;
+            padding: 15px;
+        }
+        
+        article{
+    
+            max-width: 44%;
+            display: inline-block;
+            margin: 10px;
+            align-content: space-around;
+        }
+        
+        
+        
+}
+@media (min-width: 769px){
+    article{
+    box-shadow: 0px 0px 0px rgb(100 100 100);
+        transition: 1s;
+    }
+    article:hover{
+        box-shadow: 0px 0px 10px rgb(100 100 100);
+    }
+    .naveg{
+        display: initial;
+    }
+    .burger-menu{
+        display: none;
+        
+    }
+    .imgaen-logo{
+        width: 35%;
+        padding: 15px;
+    }
+  
+    article{
+    
+        max-width: 22%;
+        display: inline-block;
+        margin: 10px;
+        align-content: space-around;
+    }
+    div.logo-barra-compra{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
+    div.barra-busca{
+        display: flex;
+        margin-top: 17px ;
+        width: 33%;
+        align-items: center;
+        position: relative;
+    }
+
+    div.imagen-logoo{
+        width: 33%;
+    }
+    div.compras{
+        margin-top: 17px ;
+        width: 33%;
+        display: flex;
+        align-items: center;
+        
+    }
+    div.imagen-logoo{
+        width: 100%;
+    }
+    nav.naveg{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    ul{
+        display: flex;   
+    }
+    li{
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+    h4.descripciones{
+        display: none;
+        transition: 0.5s;
+    }
+    div.cajapdd:hover h4.descripciones{
+       display: initial;
+    }
+    div.footer{
+        display: flex;
+    }
+    p.footer{
+        text-align:left;
+    }
+    #icono-footer{
+        color: blue;
+        transition: 0.5s;
+    }
+    #icono-footer:hover{
+        color: rgb(18, 247, 178);
+    }
+    
+
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   }
+    
+img.a{
+    width: 100%;
+}
+    
