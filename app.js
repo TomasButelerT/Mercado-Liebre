@@ -27,6 +27,6 @@ app.post('/ingresa', (req, res) => {
     req.body
     res.redirect('/');
 });
-app.listen(process.env.PORT || 3000, Function () 
-    console.log("Levantando un servidor con Express");
-)
+app.listen(process.env.PORT || 3000, function () {
+    console.log("Levantando un servidor con Express")
+})
